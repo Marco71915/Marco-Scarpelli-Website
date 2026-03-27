@@ -5,6 +5,7 @@
 
 import React from 'react';
 import { motion } from 'motion/react';
+import marcoscarpelli from './marcoscarpelli.jpeg';
 import { 
   Github, 
   Linkedin, 
@@ -177,7 +178,7 @@ export default function App() {
               >
                 <div className="relative z-10 aspect-[16/9] bg-slate-900 rounded-[2.5rem] overflow-hidden grayscale hover:grayscale-0 transition-all duration-1000 shadow-2xl border border-slate-800/50 group">
                   <img 
-                    src="/marcoscarpelli.jpeg" 
+                    src={marcoscarpelli} 
                     alt={PERSONAL_INFO.name}
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover scale-105 group-hover:scale-100 transition-transform duration-1000"
