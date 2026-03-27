@@ -180,7 +180,7 @@ export default function App() {
                   <img 
                     src={marcoscarpelli} 
                     alt={PERSONAL_INFO.name}
-                    style={{ objectPosition: '50% 25%' }}  // 50% = centro orizzontale, 25% = vicino alla cima
+                    style={{ objectPosition: '50% 5%' }}  // 50% = centro orizzontale, 5% = vicino alla cima
                     className="w-full h-full object-cover scale-105 group-hover:scale-100 transition-transform duration-1000"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#020617] via-transparent to-transparent opacity-60" />
